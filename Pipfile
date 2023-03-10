@@ -13,6 +13,8 @@ django-filter = "*"
 djoser = "*"
 djangorestframework-simplejwt = "*"
 pillow = "*"
+redis = "*"
+celery = "*"
 
 [dev-packages]
 autopep8 = "*"
