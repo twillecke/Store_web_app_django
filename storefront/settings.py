@@ -179,4 +179,4 @@ DEFAULT_FROM_EMAIL = 'from@thiagocode.com'
 ADMINS = [
     ()
 ]
-CELERY_BROKER_URL = 'redis://localhost:6379/1'
+CELERY_BROKER_URL = 'redis://localhost:6379'
