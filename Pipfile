@@ -21,6 +21,8 @@ autopep8 = "*"
 pytest = "*"
 pytest-django = "*"
 model-bakery = "*"
+locust = "*"
+django-silk = "*"
 
 [requires]
 python_version = "3.11"
