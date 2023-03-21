@@ -1,2 +1,7 @@
+*.pyc
 config.py
-__pycache__/
+/__pycache__/
+/media/
+/static/
+db.sqlite3
+general.log

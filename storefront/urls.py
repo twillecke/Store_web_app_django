@@ -23,6 +23,7 @@ admin.site.site_header = 'Storefront Admin'
 admin.site.index_title = 'Admin'
 
 urlpatterns = [
+    path('', include('core.urls')),
     path('admin/', admin.site.urls),
     path('store/', include('store.urls')),
     path('auth/', include('djoser.urls')),
