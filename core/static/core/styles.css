@@ -1,18 +1,21 @@
-body { 
+body {
   margin: 0;
 }
 
-.home-page { 
+.home-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1ec8aa;
+  background: rgb(245, 245, 245);
+  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(255, 181, 0, 1) 100%);
   height: 100vh;
   width: 100vw;
 }
 
 .logo {
-  width: 300px;
+  width: 400px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.4rem rgb(92, 92, 92));
 }
 
 .thumbnail {
