@@ -45,7 +45,7 @@ src="https://drive.google.com/uc?export=view&id=1c8kthbpOze1oaROMjKEpozT4m02IsUP
 </p>
 
 5. Propague os modelos do projeto para o esquema da base de dados configurada: `python manage.py makemigrations` e `python manage.py migrate`
-7. Crie uma conta administrador para acessar o "Admin Panel"
+7. Crie uma conta administrador para acessar o "Admin Panel": `python manage.py createsuperuser`
 8. Inicie o servidor do Django no terminal: `python manage.py runserver`
 9. Acesse o aplicativo em: http://localhost:8000/ ou http://127.0.0.1:8000/
 
@@ -59,6 +59,12 @@ src="https://drive.google.com/uc?export=view&id=1sJOMRDFHLXld33FiD36YO-_hgXB5bdp
 </p>
 
 O esquema de base de dados  possui várias entidades que se relacionam entre si. A entidade "Product" é uma das principais, possuindo um título, uma descrição, um preço unitário, um inventário, a última atualização e uma coleção - relacionada através de uma chave estrangeira com a entidade "Collection" -. Ela também possui uma relação many-to-many com a entidade "Promotion", o que permite que um produto possa participar de várias promoções diferentes.
+
+## Admin Panel
+
+A página do administrador é uma feature nativa do Django. Nesse projeto ela foi customizada para os propósitos de uma loja online permitindo o controle de produtos, clientes, coleções, níveis de privilégio, etc.
+
+A página é acessada em http://127.0.0.1:8000/admin/ com o login do administrador.
 
 
 ## Próximas metas 
