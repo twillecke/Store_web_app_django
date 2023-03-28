@@ -49,6 +49,7 @@ src="https://drive.google.com/uc?export=view&id=1c8kthbpOze1oaROMjKEpozT4m02IsUP
 8. Inicie o servidor do Django no terminal: `python manage.py runserver`
 9. Acesse o aplicativo em: http://localhost:8000/ ou http://127.0.0.1:8000/
 
+<h1>Mais informações</h1> 
 
 ## Diagrama da base de dados
 
@@ -60,8 +61,7 @@ src="https://drive.google.com/uc?export=view&id=1sJOMRDFHLXld33FiD36YO-_hgXB5bdp
 O esquema de base de dados  possui várias entidades que se relacionam entre si. A entidade "Product" é uma das principais, possuindo um título, uma descrição, um preço unitário, um inventário, a última atualização e uma coleção - relacionada através de uma chave estrangeira com a entidade "Collection" -. Ela também possui uma relação many-to-many com a entidade "Promotion", o que permite que um produto possa participar de várias promoções diferentes.
 
 
-
-## Próximas metas
+## Próximas metas 
 - Implementar interface frontend
 - Implementar testes nas demais funcionalidades do app
 - Otimizar queryes
