@@ -16,13 +16,13 @@ As principais funcionalidades do projeto incluem:
 </ul>
 <li>Sistema de criação e autenticação de usuário usando o Djoser e JSON web tokens.</li>
 <li>Painel do administrador configurado para visualização e operações CRUD com o banco de dados.</li>
-<li>Todas as APIs seguindo o padrão RESTful com o Django REST Framework.</li>
+<li>APIs no padrão RESTful implementadas com o Django REST Framework.</li>
 <ul>
-<li>APIs seguras com diferentes níveis de privilégio e autenticação.</li>
-<li>APIs funcionais para "carrinho de compra" e "itens de compra".</li>
+<li>APIs protegidas por autenticação e diferentes níveis de privilégio.</li>
+<li>APIs para "carrinho de compra" e "itens de compra".</li>
 </ul>
 <li>Upload de imagens para os Produtos.</li>
-<li>Testes automatizados para operações CRUD em "Coleções", usando pytest e django-pytest.</li>
+<li>Testes unitários na API "collections" com pytest e django-pytest.</li>
 </ul>
 
 ## Requisitos
