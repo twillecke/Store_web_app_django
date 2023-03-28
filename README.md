@@ -1,24 +1,29 @@
 <h1 align="center">"All-in-One" e-store</h1>
 
 <p align="center">
-<img align="middle" src="https://github.com/twillecke/Store_web_app_django/blob/main/core/static/core/logo.svg" width="40%" height="40%">
+<img align="middle" src="https://github.com/twillecke/Store_web_app_django/blob/main/core/static/core/logo.svg" width="60%" height="60%">
 </p>
 
 ## O que é?
 Este projeto tem como objetivo o desenvolvimento do backend de um aplicativo web de comércio, usando o framework Python Django.
 
 As principais funcionalidades do projeto incluem:
-
-- Modelagem do banco de dados com Django ORM e servidor MySQL.
-- Modelos para Produtos, Carrinhos, Clientes, Coleções, Tags, Usuários, Promoção, Compra e Review.
-- Banco de dados pré-populado com produtos para fins de teste.
-- Sistema de criação e autenticação de usuário usando o Djoser e JSON web tokens.
-- Painel do administrador configurado para visualização e operações CRUD com o banco de dados.
-- Todas as APIs seguindo o padrão RESTful com o Django REST Framework.
-- APIs seguras com diferentes níveis de privilégio e autenticação.
-- APIs funcionais para "carrinho de compra" e "itens de compra".
-- Possibilidade de upload de imagens para os Produtos.
-- Testes automatizados para operações CRUD em "Coleções", usando pytest e django-pytest.
+<ul>
+<li>Modelagem do banco de dados com Django ORM e servidor MySQL.</li>
+<ul>
+<li>Modelos para Produtos, Carrinhos, Clientes, Coleções, Tags, Usuários, Promoção, Compra e Review.</li>
+<li>Banco de dados pré-populado com produtos para fins de teste.</li>
+</ul>
+<li>Sistema de criação e autenticação de usuário usando o Djoser e JSON web tokens.</li>
+<li>Painel do administrador configurado para visualização e operações CRUD com o banco de dados.</li>
+<li>Todas as APIs seguindo o padrão RESTful com o Django REST Framework.</li>
+<ul>
+<li>APIs seguras com diferentes níveis de privilégio e autenticação.</li>
+<li>APIs funcionais para "carrinho de compra" e "itens de compra".</li>
+</ul>
+<li>Possibilidade de upload de imagens para os Produtos.</li>
+<li>Testes automatizados para operações CRUD em "Coleções", usando pytest e django-pytest.</li>
+</ul>
 
 ## Requisitos
 
