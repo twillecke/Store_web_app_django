@@ -1,5 +1,8 @@
-# Store App Django
-<img align="center" src="https://github.com/twillecke/Store_web_app_django/blob/main/core/static/core/logo.svg" width="100%" height="50%">
+<h1 align="center">"All-in-One" e-store | Django</h1>
+
+<p align="center">
+<img align="middle" src="https://github.com/twillecke/Store_web_app_django/blob/main/core/static/core/logo.svg" width="40%" height="40%">
+</p>
 
 ## Requisitos
 
