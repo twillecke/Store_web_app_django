@@ -15,8 +15,14 @@ MySQL Workbench 8.0.32 https://dev.mysql.com/downloads/workbench/
 
 1. Clone este repositório no seu PC `git clone https://github.com/twillecke/Store_web_app_django`
 2. Ative o ambiente virtual e instale as dependências do projeto `pipenv install` ou `pipenv install -r requirements.txt`
-3. Configure o login do MySQL e crie uma base de dados com MySQL Workbench `CREATE DATABASE nomedabase;`
-4. Em storefront/settings/dev.py configure o nome da base de dados e login de acordo com o item 4.  
+3. Configure o login do MySQL e crie uma base de dados com MySQL Workbench `CREATE DATABASE storefront2;`
+4. Em storefront/settings/dev.py configure o nome da base de dados e login de acordo com o item 4.
+
+<p align="center">
+<img align="middle"
+src="https://drive.google.com/uc?export=view&id=1c8kthbpOze1oaROMjKEpozT4m02IsUPA" width="60%">
+</p>
+
 5. No terminal inicie o servidor do Django `python3 manage.py runserver`
 6. Acesse o app em http://localhost:8000/ ou http://127.0.0.1:8000/
 
@@ -34,6 +40,14 @@ As features são as seguintes:
 - APIs de "carrinho de compra" e "itens de compra" funcionais.
 - Upload de imagens para os Produtos;
 - Testes automatizados com pytest e django-pytest de operações CRUD em "Coleções".
+
+## Diagrama da base de dados
+
+<p align="center">
+<img align="middle"
+src="https://drive.google.com/uc?export=view&id=1sJOMRDFHLXld33FiD36YO-_hgXB5bdpQ" width="80%">
+</p>
+
 
 ## Próximas metas
 - Implementar interface frontend
