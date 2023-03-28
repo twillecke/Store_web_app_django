@@ -21,7 +21,7 @@ As principais funcionalidades do projeto incluem:
 <li>APIs seguras com diferentes níveis de privilégio e autenticação.</li>
 <li>APIs funcionais para "carrinho de compra" e "itens de compra".</li>
 </ul>
-<li>Possibilidade de upload de imagens para os Produtos.</li>
+<li>Upload de imagens para os Produtos.</li>
 <li>Testes automatizados para operações CRUD em "Coleções", usando pytest e django-pytest.</li>
 </ul>
 
@@ -34,19 +34,20 @@ MySQL Workbench 8.0.32 https://dev.mysql.com/downloads/workbench/
 
 ## Setup
 
-1. Clone este repositório em seu computador com o comando git clone https://github.com/twillecke/Store_web_app_django.
-2. Ative o ambiente virtual e instale as dependências do projeto executando `pipenv install` ou `pipenv install -r requirements.txt`.
-3. Configure o login do servidor MySQL e crie uma base de dados usando o MySQL Workbench, executando o comando `CREATE DATABASE storefront2;`.
-4. Em storefront/settings/dev.py, configure o nome da base de dados e login de acordo com o item 3.
+1. Clone este repositório em seu computador: `git clone https://github.com/twillecke/Store_web_app_django`
+2. Ative o ambiente virtual e instale as dependências do projeto: `pipenv install` ou `pipenv install -r requirements.txt`
+3. Configure o login do servidor MySQL e crie uma base de dados usando o MySQL Workbench: `CREATE DATABASE storefront2;`
+4. Em storefront/settings/dev.py, configure o nome da base de dados e login de acordo com o item 3. 
 
 <p align="center">
 <img align="middle"
-src="https://drive.google.com/uc?export=view&id=1c8kthbpOze1oaROMjKEpozT4m02IsUPA" width="60%">
+src="https://drive.google.com/uc?export=view&id=1c8kthbpOze1oaROMjKEpozT4m02IsUPA" width="80%">
 </p>
 
-5. Propague os modelos do projeto para o esquema da base de dados configurada com o comando python manage.py makemigrations e python manage.py migrate.
-6. Inicie o servidor do Django no terminal, digitando python3 manage.py runserver.
-7. Acesse o aplicativo em http://localhost:8000/ ou http://127.0.0.1:8000/.
+5. Propague os modelos do projeto para o esquema da base de dados configurada: `python manage.py makemigrations` e `python manage.py migrate`
+7. Crie uma conta administrador para acessar o "Admin Panel"
+8. Inicie o servidor do Django no terminal: `python manage.py runserver`
+9. Acesse o aplicativo em: http://localhost:8000/ ou http://127.0.0.1:8000/
 
 
 ## Diagrama da base de dados
