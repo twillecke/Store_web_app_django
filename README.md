@@ -6,8 +6,19 @@
 
 ## Requisitos
 
-Python 3.x;
-Pipenv `pip install pipenv`;
+Python 3.x https://www.python.org/downloads/ <br>
+Pipenv `pip install pipenv`<br>
+MySQL Community Server 8.0.32 https://dev.mysql.com/downloads/mysql/ <br>
+MySQL Workbench 8.0.32 https://dev.mysql.com/downloads/workbench/
+
+## Setup
+
+1. Clone este repositório no seu PC `git clone https://github.com/twillecke/Store_web_app_django`
+2. Ative o ambiente virtual e instale as dependências do projeto `pipenv install` ou `pipenv install -r requirements.txt`
+3. Configure o login do MySQL e crie uma base de dados com MySQL Workbench `CREATE DATABASE nomedabase;`
+4. Em storefront/settings/dev.py configure o nome da base de dados e login de acordo com o item 4.  
+5. No terminal inicie o servidor do Django `python3 manage.py runserver`
+6. Acesse o app em http://localhost:8000/ ou http://127.0.0.1:8000/
 
 ## O que é?
 Esse é um projeto com objetivo de desenvolver o backend de um web app de comércio com Python Django. 
@@ -24,13 +35,7 @@ As features são as seguintes:
 - Upload de imagens para os Produtos;
 - Testes automatizados com pytest e django-pytest de operações CRUD em "Coleções".
 
-## Como testar?
-- Clone este repositório no seu PC;
-- Instale as dependências com `pipenv install`
-- No terminal ative o servidor do Django `python3 manage.py runserver`
-- Acesse o app em http://localhost:8000/store ou http://127.0.0.1:8000/store
-
 ## Próximas metas
 - Implementar interface frontend
 - Implementar testes nas demais funcionalidades do app
-- otimizar queryes
+- Otimizar queryes
